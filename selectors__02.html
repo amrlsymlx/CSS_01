@@ -2,58 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selectors</title>
-    <style> 
-    /* selectors in css */
-    /* use . to style with class */
-    /* use # to style with id */
-    /* Style with element name itself */
+    <style>
+        /* selectors in css */
+        /* Use . to style with class */
+        /* Use # to style with id */
+        /* Style with element name itself */
 
-    /* select element by its name */
-    body {
-        background-color: lightgrey;
-    }
+        /* select an element by its name*/
+        body {
+            background-color: lightgray;
+        }
 
-    /* style with class */
-    .main-header {
-        color: blueviolet;
-    }
+        /* style with class */
+        .main-header {
+            color: blueviolet;
+        }
 
-    /* style with id */
-    #main {
-        background-color: burlywood;
-    }
+        /* style with id  */
+        #main {
+            background-color: burlywood;
+        }
 
-    #topic {
-        background-color: cornsilk;
-    }
-    /* how to select the multple element */
-    #main , #topic {
-        border: darkblue 3px solid;
-        padding: 10px;
-        margin-bottom: 5px;
-    }
+        #topic {
+            background-color: cornsilk;
+        }
 
-    /* nested element */
-    #topic p {
-        font-weight: bold;
-    }
+        /* how to select multiple elements  */
+        #main , #topic {
+            border: darkblue 3px solid;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+        /* Nested elements */
+        #topic p {
+            font-weight: bold;
+        }
+        
 
     </style>
 </head>
 <body>
-    
-    <div id="main">
-        <h1 class="main-header">Welcome to CSS </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eveniet 
-            quisquam iusto. Aliquid dignissimos minus harum, magnam asperiores architecto blanditiis!</p>
-    </div>
 
+    <div id="main">
+        <h1 class="main-header">Welcome to CSS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti accusamus dicta, repudiandae
+             est natus sunt consectetur illo odit nesciunt praesentium.</p>
+    </div>
     <div id="topic">
-        <h2 class="main-header">Software Engineering</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos optio deserunt nihil libero voluptatem non.</p>
-         </div>
+        <h2>Software Engineering</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, praesentium?</p>
+    </div>
 </body>
 </html>
